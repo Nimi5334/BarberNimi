@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberNimi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .hero {
+            background: url('barbershop.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero h2 {
+            font-size: 3rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services, .contact {
+            margin-bottom: 2rem;
+        }
+        .services h3, .contact h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            background-color: #ddd;
+            margin-bottom: 0.5rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BarberNimi</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+    </nav>
+    <div class="hero">
+        <h2>Your Style, Our Expertise</h2>
+    </div>
+    <div class="container">
+        <section id="services" class="services">
+            <h3>Our Services</h3>
+            <ul>
+                <li>Classic Haircuts</li>
+                <li>Beard Trims</li>
+                <li>Hot Towel Shaves</li>
+                <li>Hair Styling</li>
+                <li>Children's Haircuts</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h3>Contact Us</h3>
+            <p>Address: 123 Barber Lane, Your City</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@barbernimi.com</p>
+        </section>
+        <section id="about" class="about">
+            <h3>About Us</h3>
+            <p>At BarberNimi, we take pride in offering top-notch grooming services tailored to your needs. With skilled barbers and a welcoming atmosphere, we ensure every visit is a great experience. Come in and see why we're the best in town!</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 BarberNimi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
